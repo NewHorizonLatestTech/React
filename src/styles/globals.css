@@ -1,0 +1,35 @@
+.textrocket {
+  color: red;
+  font-size: 50px;
+}
+
+.textsub {
+  color: yellow;
+  font-size: 20;
+}
+
+body {
+  background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+  }
+}
+
+.display {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about {
+  background-color: azure;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+.aboutrocket{
+  display: flex;
+}
